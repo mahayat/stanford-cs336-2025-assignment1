@@ -593,8 +593,6 @@ def run_train_bpe(
     import os
     import sys
     sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-    # from cs336_basics.tobenamed import TrainBPE
-    # trainer = TrainBPE(input_path, vocab_size, special_tokens)
-
+    
     from cs336_basics.bpe_training import train_bpe_parallel
     return train_bpe_parallel(input_path, vocab_size, special_tokens)
