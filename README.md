@@ -1,6 +1,7 @@
 ### Getting Started
 - `brew install uv`
-- `git clone git@github.com:stanford-cs336/assignment1-basics.git`
+<!-- - `git clone git@github.com:stanford-cs336/assignment1-basics.git` -->
+- `git clone git@github.com:mahayat/stanford-cs336-2025-assignment1.git`
 - `cd ./assignment1-basics/`
 - `uv sync` #failed
 - `uv python pin 3.13`
